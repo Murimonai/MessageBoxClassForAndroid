@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+	
+	<Button
+		android:id="@+id/button"
+		android:text="Call a Custom Dialog"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</Button>
+
+	<Spinner
+	    android:id="@+id/spinner1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:text="This is a custom dialog!"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10" >
+
+	    <requestFocus />
+	</EditText>
+
+	<EditText
+	    android:id="@+id/editText2"
+	    android:text="Are you sure you want to exit?"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10" />
+
+	<Spinner
+	    android:id="@+id/spinner2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+
+</LinearLayout>
